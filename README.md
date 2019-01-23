@@ -1,6 +1,6 @@
-# Image_cartoonlization
+# Image_cartoonization
 
-1. This is the code for cartoonlizing a photo. You can use it to convert your photos to cartoon pictures.
+1. This is the code for cartoonizing a photo. You can use it to convert your photos to cartoon pictures.
 
 2. The main file is "cartoonlize.m". It reads the original photos and outputs processed pictures. The main arguments are defined in this file.
 
