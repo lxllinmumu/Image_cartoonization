@@ -22,7 +22,6 @@ img_sa = saturation_adjust(img, saturation_scalar);
 % Normalize image to [0,1].
 img_f = (double(img_sa)) ./ 255;
 
-
 if loop_num > 1
     img_f = bfilter2(img_f,radius,sigma);
     img_gray = rgb2gray(img_f);
