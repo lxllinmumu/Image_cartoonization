@@ -1,4 +1,14 @@
-img = imread('your image path');
+[name,path] = uigetfile({'*.png;*.jpg'});
+% use a ui control open a file to get the file's name and path
+% or use the follow fomat to realize the function.there are some 
+% differents between the two methods.
+
+% [name,path] = uigetfile(...
+%     {'*.jpg','Image Fomat(*.jpg)';...
+%      '*.png','Image Fomat(*.png)'});
+
+file = [name,path];
+img = imread('file');
 figure(1); imshow(img);
 img_copy = img;
 img_res = img;
